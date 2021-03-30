@@ -5,7 +5,7 @@
   "keywords": ["silverstripe", "theme", "cwp"],
   "license": "BSD-3-Clause",
   "require": {
-    "cwp/starter-theme": "^3.2@dev",
+    "cwp/starter-theme": "dev-i3-modern",
     "cwp/agency-extensions": "^2.0"
   },
   "extra": {
@@ -19,6 +19,12 @@
       "images"
     ]
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/i3waitematadhb/cwp-starter-theme.git"
+    }
+  ],
   "minimum-stability": "dev",
   "prefer-stable": true
 }
